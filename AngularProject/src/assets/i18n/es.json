@@ -1,0 +1,15 @@
+{
+    "title": "¡Bienvenido al Sistema de Gestion de Asesoria!",
+    "menubar": {
+        "home": "Inicio",
+        "homepage": "Página de inicio",
+        "request": "Solicitar asesoria",
+        "advisors": "Lista de asesores"
+    },
+    "headers": {
+        "code": "Codigo",
+        "name": "Nombre",
+        "phone": "Telefono",
+        "email" : "Correo"
+    }
+}

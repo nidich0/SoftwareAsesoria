@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+option csharp_namespace = "CleanArchitecture.Proto.Periodos";
+
+message Periodo {
+  string id = 1;
+  string fechaInicio = 2;
+  string fechaFinal = 3;
+  string nombre = 4;
+}
+
+message GetPeriodosByIdsResult {
+  repeated Periodo periodos = 1;
+}
+
+message GetPeriodosByIdsRequest {
+  repeated string ids = 1;
+}

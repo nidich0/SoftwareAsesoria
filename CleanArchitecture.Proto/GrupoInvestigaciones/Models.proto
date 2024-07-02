@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+option csharp_namespace = "CleanArchitecture.Proto.GrupoInvestigaciones";
+
+message GrupoInvestigacion {
+  string id = 1;
+  string nombre = 2;
+  bool isDeleted = 3;
+}
+
+message GetGrupoInvestigacionesByIdsResult {
+  repeated GrupoInvestigacion grupoinvestigaciones = 1;
+}
+
+message GetGrupoInvestigacionesByIdsRequest {
+  repeated string ids = 1;
+}

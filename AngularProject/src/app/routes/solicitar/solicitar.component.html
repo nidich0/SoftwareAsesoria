@@ -1,0 +1,7 @@
+<div class="card" *transloco="let t; prefix: 'headers'">
+    <p-autoComplete [(ngModel)]="selectedAsesor"
+                    [suggestions]="filteredAsesores"
+                    [forceSelection]="true" 
+                    (completeMethod)="filterAsesor($event)"
+                    field="name" />
+</div>

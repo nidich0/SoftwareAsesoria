@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+option csharp_namespace = "CleanArchitecture.Proto.Periodos";
+
+import "Periodos/Models.proto";
+
+service PeriodosApi {
+  rpc GetByIds(GetPeriodosByIdsRequest) returns (GetPeriodosByIdsResult);
+}

@@ -1,0 +1,15 @@
+{
+    "title": "¡Kamisaraki Asesoría Gestión Sistema-man!",
+    "menubar": {
+        "home": "Qallariy",
+        "homepage": "Qallariy panka",
+        "request": "Asesoría mañay",
+        "advisors": "Asesor-runa sinchi"
+    },
+    "headers": {
+        "code": "K'askiy",
+        "name": "Suti",
+        "phone": "Wasi telefoni",
+        "email": "Correo"
+    }
+}

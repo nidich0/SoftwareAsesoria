@@ -1,0 +1,25 @@
+<div class="card" *transloco="let t; prefix: 'headers'">
+    <p-table
+             [value]="usuarios"
+             [tableStyle]="{ 'min-width': '50rem' }"
+             [paginator]="true"
+             [rows]="50"
+    >
+        <ng-template pTemplate="header">
+            <tr>
+                <th>{{t('code')}}</th>
+                <th>{{t('name')}}</th>
+                <th>{{t('phone')}}</th>
+                <th>{{t('email')}}</th>
+            </tr>
+        </ng-template>
+        <ng-template pTemplate="body" let-usuario>
+            <tr>
+                <td>{{ usuario.codigo }}</td>
+                <td>{{ usuario.firstName }}</td>
+                <td>{{ usuario.telefono }}</td>
+                <td>{{ usuario.email }}</td>
+            </tr>
+        </ng-template>
+    </p-table>
+</div>

@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+option csharp_namespace = "CleanArchitecture.Proto.GrupoInvestigaciones";
+
+import "GrupoInvestigaciones/Models.proto";
+
+service GrupoInvestigacionesApi {
+  rpc GetByIds(GetGrupoInvestigacionesByIdsRequest) returns (GetGrupoInvestigacionesByIdsResult);
+}

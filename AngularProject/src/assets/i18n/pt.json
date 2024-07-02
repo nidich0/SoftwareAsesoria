@@ -1,0 +1,15 @@
+{
+    "title": "Bem-vindo ao Sistema de Gestão de Assessoria!",
+    "menubar": {
+        "home": "Início",
+        "homepage": "Página de início",
+        "request": "Solicitar assessoria",
+        "advisors": "Lista de assessores"
+    },
+    "headers": {
+        "code": "Código",
+        "name": "Nome",
+        "phone": "Telefone",
+        "email": "Correio"
+    }
+}

@@ -1,0 +1,7 @@
+{
+  "Asesoria": {
+    "CoordinadoresMaximosPorEscuela": 1,
+    "AsesoradosMaximosPorAsesor": 1,
+    "SolicitudesMaximasAlDiaPorAsesor":  5
+  }
+}

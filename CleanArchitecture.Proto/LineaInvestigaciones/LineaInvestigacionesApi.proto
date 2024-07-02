@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+option csharp_namespace = "CleanArchitecture.Proto.LineaInvestigaciones";
+
+import "LineaInvestigaciones/Models.proto";
+
+service LineaInvestigacionesApi {
+  rpc GetByIds(GetLineaInvestigacionesByIdsRequest) returns (GetLineaInvestigacionesByIdsResult);
+}

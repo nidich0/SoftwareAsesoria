@@ -1,0 +1,15 @@
+{
+    "title": "Welcome to the Thesis Advisory Management System!",
+    "menubar": {
+        "home": "Home",
+        "homepage":  "Home page",
+        "request": "Request advisory",
+        "advisors": "List of advisors"
+    },
+    "headers": {
+        "code": "Code",
+        "name": "Name",
+        "phone": "Phone",
+        "email": "Email"
+    }
+}
